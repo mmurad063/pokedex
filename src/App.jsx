@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { pokemonList } from "./data";
-import PokemonCard from "./components/PokemonCard";
-import TeamItem from "./components/TeamItem";
+import PokemonCard from "./Components/PokemonCard.jsx";
+import TeamItem from "./Components/TeamItem.jsx";
 
 export default function App() {
   const [team, setTeam] = useState([]);
